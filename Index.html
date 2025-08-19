@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Atsho — Full‑Stack Developer & IT Graduate. Projects, skills, and contact." />
+  <title>Atsho • Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🚀</text></svg>">
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="Go to home">ATSHO</a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        <ul class="nav-list" id="navList">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌓</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- HERO -->
+    <section class="section hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1 id="hero-title">Hi, I'm <span class="accent">Atsho Nota</span></h1>
+          <p class="subtitle">Full‑Stack Developer & IT Graduate • Turning ideas into reliable, user‑friendly apps.</p>
+          <div class="cta">
+            <a class="btn primary" href="assets/CV.pdf" target="_blank" rel="noopener">Download CV</a>
+            <a class="btn" href="#projects">View Projects</a>
+          </div>
+          <div class="socials" aria-label="Social links">
+            <a href="https://github.com/Atsho-bit" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+            <a href="https://www.linkedin.com/in/nota-atsho-3862aa323" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+            <a href="mailto:atshonota357@gmail.com" aria-label="Email">Email</a>
+          </div>
+        </div>
+        <figure class="hero-photo">
+          <img src="WhatsApp Image 2025-08-19 at 01.23.32_6de1fd58.jpg" alt="Portrait of Atsho">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container two-col">
+        <div>
+          <h2 id="about-title">About</h2>
+          <p>
+            I'm an IT graduate focused on building clean, maintainable full‑stack applications. Recent work includes
+            a weather‑aware retail strategy dashboard, a car‑parts advertising app for local shops, and studies on
+            phishing awareness in rural online shopping. I enjoy rapid prototyping, solid architecture, and shipping.
+          </p>
+          <ul class="highlights">
+            <li>Strong with HTML, CSS, JavaScript, and Python</li>
+            <li>Enjoy Node/Express, React, and SQL/NoSQL</li>
+            <li>Comfortable with Git, testing, and CI basics</li>
+          </ul>our-usernam
+        </div>
+        <div class="stats">
+          <div class="stat"><span>3+</span> major demo projects</div>
+          <div class="stat"><span>2</span> research topics</div>
+          <div class="stat"><span>∞</span> curiosity</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 id="skills-title">Skills</h2>
+        <div class="chips" role="list">
+          <span role="listitem" class="chip">HTML5</span>
+          <span role="listitem" class="chip">CSS3</span>
+          <span role="listitem" class="chip">JavaScript</span>
+          <span role="listitem" class="chip">React</span>
+          <span role="listitem" class="chip">Node.js</span>
+          <span role="listitem" class="chip">Express</span>
+          <span role="listitem" class="chip">MongoDB</span>
+          <span role="listitem" class="chip">PostgreSQL</span>
+          <span role="listitem" class="chip">Python</span>
+          <span role="listitem" class="chip">Git & GitHub</span>
+          <span role="listitem" class="chip">REST APIs</span>
+          <span role="listitem" class="chip">Unit Testing</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="projects-title">Projects</h2>
+          <div class="filters" role="tablist" aria-label="Project filters">
+            <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+            <button class="filter-btn" data-filter="web" role="tab">Web</button>
+            <button class="filter-btn" data-filter="data" role="tab">Data</button>
+            <button class="filter-btn" data-filter="research" role="tab">Research</button>
+          </div>
+        </div>
+
+        <div class="grid projects-grid">
+          <!-- Project 1 -->
+          <article class="card project" data-category="web">
+            <div class="thumb" aria-hidden="true"></div>
+            <div class="card-body">
+              <h3>Car Parts Advertising App</h3>
+              <p>Catalog and advertise car parts; customers reserve online and complete payment in‑shop.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+              <div class="links">
+                <a href="#" target="_blank" rel="noopener">Live Demo</a>
+                <a href="#" target="_blank" rel="noopener">Source</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card project" data-category="data">
+            <div class="thumb" aria-hidden="true"></div>
+            <div class="card-body">
+              <h3>Retail Weather Strategy Dashboard</h3>
+              <p>Prototype dashboard that correlates weather with store traffic to guide staffing and promos.</p>
+              <div class="tags"><span>JS</span><span>API</span><span>Charts</span></div>
+              <div class="links">
+                <a href="#" target="_blank" rel="noopener">Live Demo</a>
+                <a href="#" target="_blank" rel="noopener">Source</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card project" data-category="research">
+            <div class="thumb" aria-hidden="true"></div>
+            <div class="card-body">
+              <h3>Phishing Awareness in Rural Online Shopping</h3>
+              <p>Interactive write‑up & visuals summarizing key findings and recommendations.</p>
+              <div class="tags"><span>Report</span><span>Viz</span></div>
+              <div class="links">
+                <a href="#" target="_blank" rel="noopener">Case Study</a>
+                <a href="#" target="_blank" rel="noopener">Notebook</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="card project" data-category="data">
+            <div class="thumb" aria-hidden="true"></div>
+            <div class="card-body">
+              <h3>AI Outbreak Predictor (Demo)</h3>
+              <p>Simple mock data demo showing how signals could forecast outbreaks for faster response.</p>
+              <div class="tags"><span>Python</span><span>Dash</span></div>
+              <div class="links">
+                <a href="#" target="_blank" rel="noopener">Live Demo</a>
+                <a href="#" target="_blank" rel="noopener">Source</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience" aria-labelledby="exp-title">
+      <div class="container">
+        <h2 id="exp-title">Experience</h2>
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="time">2025</div>
+            <div class="content">
+              <h3>Full‑Stack Projects & Research</h3>
+              <p>Built and documented multiple demos: retail weather strategy, car parts ads app, security awareness study.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="time">2024</div>
+            <div class="content">
+              <h3>Diploma in Information Technology</h3>
+              <p>Focused on software development, databases, computer architecture, and systems design.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container two-col">
+        <div>
+          <h2 id="contact-title">Contact</h2>
+          <p>Want to collaborate or hire me? Send a message — I typically respond within 1–2 days.</p>
+          <p><strong>Email:</strong> <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required placeholder="Your name" />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required placeholder="you@example.com" />
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" required placeholder="How can I help?"></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send</button>
+          <p class="form-msg" id="formMsg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Atsho. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
